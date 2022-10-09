@@ -993,6 +993,7 @@ footer .arriba:hover{
 
 /* ====== PARA TABLETS ====== */
 
+
 @media screen and (max-width:1024px) {
     .container {
         width: var(--container-width-md);
@@ -1313,38 +1314,5 @@ footer .arriba:hover{
     }
     .contacto .fila .col{
         width: 100%;
-    }
-}
-
-/* SECCIÓN RESPONSIVE */
-
-@media screen and (max-width: 800px) {
-    .redes {
-        display: none;
-    }
-    nav{
-        display: none;
-    }
-    nav.responsive{
-        display: block;
-        background-color: rgba(17, 83, 226, 0.7) ;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding: 10px 0;  
-    }
-    nav ul{
-        display: block;
-        text-align: center;
-    }
-    nav ul li{
-        margin: 5px 0;
-    }
-    #icono-nav{
-        display: block;;
-    }  
-        #servicios{
-        padding: 50px;
     }
 }
