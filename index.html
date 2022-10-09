@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="./assets/logo/logowill.png">
+    <title>WM | Desarrollador Web Full-Stack. </title>
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- Typing Script CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/bf2709a888.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Aquí pongo el head donde tendre el menú y el logo -->
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4> <img class="logo" src="./assets/logo/logowill.png" alt="Mi Logo"> </h4>
+            </a>
+            <ul class="nav_menu">
+                <li class="items"><a href="#inicio">Inicio</a></li>
+                <li class="items"><a href="#acerca">Acerca de WM</a></li>
+                <li class="items"><a href="#servicios">Mis servicios</a></li>
+                <li class="items"><a href="#skills">Mis habilidades</a></li>
+                <li class="items"><a href="#portfolio">Mi portafolio</a></li>
+                <li class="items"><a href="#contacto">Contacto</a></li>     
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+    
+    <!-- Inicio -->
+    <section class="inicio" id="home">
+        <div class="container header_container" id="home">
+            <div class="header_left">
+                <div class="header_left_img">
+                    <img class="foto" src="./assets/images/fotocaricatura1.jpg.jpg" alt="Model Image">
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="text1">Bienvenido(a), Soy</div>
+                <div class="text2">Wilmer Mosquera Figueroa</div>
+                <div class="text3">y me desempeño como: <span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
+    <!-- Aquí termina el inicio -->
+
+    <!-- Comienza la sección Redes Sociales -->
+    <section class="redes-sociales" id="red">
+        <!-- Aquí inicia la sección del footer -->
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </section>
+    <!-- Termina la sección Redes Sociales -->
+
+    <!-- Inicia la sección acerca de WM -->
+    <section class="about" id="about">
+        <h2 class="border_bottom">ACERCA DE WM</h2>
+        <div class="container about_container">
+            <div class="about-img">
+                <img src="./assets/images/will2.png" alt="Acerca de WM">
+            </div>
+            <div class="about-text">
+                <div class="text">
+                    Soy Wilmer Mosquera Figueroa y me desempeño como: <span class="typing-2"></span>
+                </div>
+                <p>Soy Lic. en Docencia en computadores de la Universidad de Medellín - Colombia. Luego hice una Ingenieria de sistemas que no pude completar por mi trabajo como docente. En el 2015 inicie una especialización en Administración de la Informática Educativa, graduandome en el año 2020. En la actualidad realizo dos estudios en: 1. Diseño de videojuegos y 2. Desarrollo Web Full Stack y Ciencias de la Computación. Me apasiona la tecnología y trato de imprimirlo en mis trabajos.</p>
+                <a href="#" class="btn">Descargar mi CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- Termina la sección acerca de WM -->
+
+    <!-- Empieza la sección Servicios -->
+    <div class="services" id="service">
+        <h2 class="border_bottom">SERVICIOS</h2>
+        <div class="container services_container">
+            <div class="cards">
+                <div class="card">
+                    <div class="sbox">
+                        <img class="elipse" src="./assets/vectores/Ellipse 14.svg" alt="elipse">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Diseño Web</h3>
+                        <p>crear sitios web agradables que fortalezca la marca de su empresa al tiempo que garantiza la facilidad de uso y la simplicidad para sus clientes.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="sbox">
+                        <img class="elipse" src="./assets/vectores/Ellipse 14.svg" alt="elipse">
+                        <i class="fa-solid fa-file-code"></i>
+                        <h3>Diseño de Videojuegos</h3>
+                        <p>Estructuraré todo el juego que usted como cliente requiero, esto va desde lo narrativo hasta el diseño del juego, personajes y diseño de niveles listos para entregarcelos a los encargados del arte.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="sbox">
+                        <img class="elipse" src="./assets/vectores/Ellipse 14.svg" alt="elipse">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Desarrollo Web</h3>
+                        <p>Crear aplicativos web personalizable y que supla sus necesidades, teniendo las funciones que se integrará directamente en su sitio web</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container services_container">
+            <div class="cards">
+                <div class="card">
+                    <div class="sbox">
+                        <img class="elipse" src="./assets/vectores/Ellipse 14.svg" alt="elipse">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Diseño de niveles y arte</h3>
+                        <p>Recreare los escenarios requeridos según lo planteado en el documento de diseño.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="sbox">
+                        <img class="elipse" src="./assets/vectores/Ellipse 14.svg" alt="elipse">
+                        <i class="fa-solid fa-file-code"></i>
+                        <h3>Diseño</h3>
+                        <p>Se realizarán diseño de logos, papeleria comercial acorde a las necesidades.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="sbox">
+                        <img class="elipse" src="./assets/vectores/Ellipse 14.svg" alt="elipse">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Backstory</h3>
+                        <p>Se creara toda la narrativa necesaria para su videojuego.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Termina la sección Servicios. -->
+
+    <!-- Aquí empieza la sección Skills -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>SKILLS</h2>
+            <div class="fila">
+                <!-- Skill Técnico -->
+                <div class="col">
+                    <h3>Habilidades Técnicas </h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Illustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Blender</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Unity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skills Profesional -->
+                <div class="col">
+                    <h3>Skills Profesional</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión de Proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sentido de pertenencia</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Aquí termina la Sección de Skills -->
+
+    <!-- Aquí inicia la sección de CV -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>MI CV</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Programación Web Full-Stack y Ciencias de
+                            Computación</h4>
+                        <span class="casa">Academlo</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diseño de Videojuegos</h4>
+                        <span class="casa">Tokio School</span>
+                        <span class="fecha">2022 - 2023o</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Especialista en Administración de la
+                            Informática Educativa</h4>
+                        <span class="casa">Universidad de Santander</span>
+                        <span class="fecha">2014 - 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingenieria de Sistemas</h4>
+                        <span class="casa">Fundación Universitaria Maria Cano</span>
+                        <span class="fecha">2005 - No graduado</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Licenciatura en Docencia en Computadores</h4>
+                        <span class="casa">Universidad de Medellín</span>
+                        <span class="fecha">1999 - 2004</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Docente</h4>
+                        <span class="casa">Secretaria de Educación de Medellin</span>
+                        <span class="fecha">2010 - Actualmente</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Despacho</h4>
+                        <span class="casa">Emtelco - Acción Plus</span>
+                        <span class="fecha">2015 - 2016</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor Comercial</h4>
+                        <span class="casa">Cell Net - Comcel</span>
+                        <span class="fecha">2003 - 2003</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor de Servicio de Salud</h4>
+                        <span class="casa">Comfama ARP</span>
+                        <span class="fecha">2005 - 2006</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Aquí termina la Sección de CV -->
+
+    <!-- Aquí inicia la sección de Portafolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./assets/images/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Educaito</h3>
+                        <p>Gestión Escolar</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/images/ejemplo2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Portfolio de WM</h3>
+                        <p>Desarrollo Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/images/developer.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Ecommerce</h3>
+                        <p>Tienda Virtual</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/images/ejemplo3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Apps</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/images/ejemplo5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Fundación Vida Nueva</h3>
+                        <p>ONG</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/images/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Modelado 3D</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Aquí termina la Sección de portafolio -->
+
+    <!-- Aquí inicia la sección de Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número Movil">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="./assets/images/mapa3.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Bello - Antioquía, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: (+57) 316 2860363
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: wworkinghome@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Aquí termina la Sección de Contacto -->
+
+    <!-- Aquí inicia la sección del footer -->
+    <footer>
+        <a href="#" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright. &copy;|Todos los derechos reservados. Creado por: Wilmer A. Mosquera Figueroa.</small>
+        </div>
+    </footer>
+    <!-- Aquí termina la Sección del footer -->
+
+
+    <!-- Aquí ubicaremos nuestro JS -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
