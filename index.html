@@ -462,11 +462,11 @@
                 <!-- Formulario -->
                 <div class="col">
                   <form onSubmit="sendEmail(); reset(); retern false;">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número Movil">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Asunto">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="text" id="name" placeholder="Tú Nombre">
+                    <input type="text" id="phone" placeholder="Número Movil">
+                    <input type="text" id="email" placeholder="Email">
+                    <input type="text" id="subject" placeholder="Asunto">
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
                     <button type="submit">
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
@@ -482,7 +482,7 @@
                         Password : "Sofi@3110@@**",
                         To : 'wworkinghome@gmail.com',
                         From : document.getElementById("email").value,
-                        Subject : "Nuevo Contacto Portfolio",
+                        Subject : document.getElementById("subject").value,
                         Body : "Name: " + document.getElementById("name").value + "<br> Email: " + getElementById("email").value
                         + "<br> Phone no: " + getElementById("phone").value + "<br> Message: " + getElementById("message").value
                     }).then(
