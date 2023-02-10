@@ -461,12 +461,12 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                  <form onSubmit="sendEmail(); reset(); retern false;">
+                  <form onsubmit="sendEmail(); reset(); return false;">
                     <input type="text" id="name" placeholder="Tú Nombre">
                     <input type="text" id="phone" placeholder="Número Movil">
-                    <input type="text" id="email" placeholder="Email">
+                    <input type="email" id="email" placeholder="Email">
                     <input type="text" id="subject" placeholder="Asunto">
-                    <textarea name="" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <textarea id="message" cols="30" rows="10" placeholder="¿En que le puedo ayudar?"></textarea>
                     <button type="submit">
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
