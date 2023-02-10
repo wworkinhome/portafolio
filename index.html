@@ -460,8 +460,7 @@
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!-- Formulario -->
-              <form onSubmit="sendEmail(); reset(); retern false;">
-                <div class="col">
+                <div class="col" onSubmit="sendEmail(); reset(); retern false;">
                     <input type="text" placeholder="Tú Nombre">
                     <input type="text" placeholder="Número Movil">
                     <input type="text" placeholder="Email">
@@ -472,7 +471,6 @@
                         <span class="overlay"></span>
                     </button>
                 </div>
-              </form>
                 <script src="https://smtpjs.com/v3/smtp.js"></script>
                 <script>
                     function senEmail(){
