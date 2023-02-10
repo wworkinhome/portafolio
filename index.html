@@ -460,6 +460,7 @@
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!-- Formulario -->
+              <form onSubmit="sendEmail(); reset(); retern false;">
                 <div class="col">
                     <input type="text" placeholder="Tú Nombre">
                     <input type="text" placeholder="Número Movil">
@@ -471,6 +472,24 @@
                         <span class="overlay"></span>
                     </button>
                 </div>
+              </form>
+                <script src="https://smtpjs.com/v3/smtp.js"></script>
+                <script>
+                    function senEmail(){
+                    Email.send({
+                        Host : "smtp.gmail.com",
+                        Username : "wworkinghome@gmail.com",
+                        Password : "Sofi@3110@@**",
+                        To : 'wworkinghome@gmail.com',
+                        From : document.getElementById("email").value,
+                        Subject : "Nuevo Contacto Portfolio",
+                        Body : "Name: " + document.getElementById("name").value + "<br> Email: " + getElementById("email").value
+                        + "<br> Phone no: " + getElementById("phone").value + "<br> Message: " + getElementById("message").value
+                    }).then(
+                      message => alert("Mensaje enviado con éxito or message sent successfully.")
+                    );
+                   }
+                </script>
                 <!-- Mapa -->
                 <div class="col">
                     <img src="./assets/images/mapa3.jpg" alt="">
