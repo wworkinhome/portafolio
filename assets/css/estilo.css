@@ -393,8 +393,7 @@ del circulo que encierra el icono, el borde del circulo, etc*/
 .sbox i {
     font-size: 2rem;
     justify-content: center;
-    aling: center;
-    width:4rem;
+    width: 4rem;
     height: 4rem;
     color: var(--normal);
     border: 4px solid var(--orange);
